@@ -57,7 +57,7 @@ export default function Page() {
     //let url = "http://localhost:3000/api/register?email=${email}&pass=${pass}&dob=${dob}";
 //    console.log(url);
 	
-    runDBCallAsync(`http://localhost:3000/api/register?email=${email}&pass=${pass}&dob=${dob}`);
+    runDBCallAsync(`api/register?email=${email}&pass=${pass}&dob=${dob}`);
 
   };
 
